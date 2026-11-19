@@ -1,0 +1,331 @@
+<resources>
+    <string name="app_name">Pro Quote</string>
+
+    <!-- Language Names -->
+    <string name="language_section_title">App Language</string>
+    <string name="language_section_subtitle">Choose your preferred display language. English is the default.</string>
+    <string name="language_english_label">English (Default)</string>
+    <string name="language_swahili_label">Kiswahili (Swahili)</string>
+    <string name="language_menu_item">Language: %1$s</string>
+    <string name="language_changed_toast">Language switched to %1$s</string>
+
+    <!-- Common Actions & Labels -->
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_save">Save</string>
+    <string name="action_done">Done</string>
+    <string name="action_close">Close</string>
+    <string name="action_ok">OK</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_view">View</string>
+    <string name="action_back">Back</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="action_sign_out">Sign Out</string>
+    <string name="label_currency">Currency</string>
+    <string name="label_primary_brand_color">Primary Brand Color</string>
+    <string name="label_brand_hex_code">Brand Hex Code</string>
+    <string name="label_selected_color">Selected color %1$s</string>
+    <string name="label_unassigned_client">Unassigned Client</string>
+    <string name="label_client_fallback">Client</string>
+    <string name="label_magic_link">Magic Link</string>
+    <string name="label_open">Open</string>
+
+    <!-- Quote Statuses -->
+    <string name="status_draft">Draft</string>
+    <string name="status_sent">Sent</string>
+    <string name="status_accepted">Accepted</string>
+    <string name="status_declined">Declined</string>
+
+    <!-- Connect Supabase Dialog -->
+    <string name="supabase_connect_title">Connect Supabase</string>
+    <string name="supabase_connect_desc">Enter your Supabase Project URL and Publishable / Anon Key to persist quotes, clients, items, and e-signatures in real time.</string>
+    <string name="supabase_url_label">Project URL</string>
+    <string name="supabase_key_label">Publishable / Anon Key</string>
+    <string name="supabase_connecting">Connecting…</string>
+    <string name="supabase_connect_save">Connect &amp; Save</string>
+
+    <!-- Magic Link Share Dialog -->
+    <string name="magic_link_ready_title">Magic Link Ready</string>
+    <string name="magic_link_ready_desc">Quote %1$s is marked as Sent. Share this magic link with your client to view, print PDF, and e-sign online.</string>
+    <string name="magic_link_route_label">Route: %1$s</string>
+    <string name="magic_link_copy">Copy Link</string>
+    <string name="magic_link_copied">Copied</string>
+    <string name="magic_link_share">Share</string>
+    <string name="magic_link_share_subject">Quotation %1$s</string>
+    <string name="magic_link_share_body">Please review and sign Quotation %1$s: %2$s</string>
+    <string name="magic_link_share_chooser">Share Magic Link</string>
+    <string name="magic_link_open_viewer">Open Viewer</string>
+    <string name="magic_link_copied_toast">Magic link copied for %1$s</string>
+
+    <!-- Landing Screen -->
+    <string name="landing_supabase_live">Supabase Live</string>
+    <string name="landing_connect_db">Connect DB</string>
+    <string name="landing_hero_cd">Pro Quote digital quotation and e-signature platform</string>
+    <string name="landing_badge">B2B QUOTATION &amp; E-SIGNATURE OS</string>
+    <string name="landing_headline">Close deals faster with interactive web quotes.</string>
+    <string name="landing_subheadline">Create branded multi-currency proposals, share 1-click magic links, capture legally binding e-signatures, and export executive PDFs.</string>
+    <string name="landing_get_started">Get Started Free</string>
+    <string name="landing_open_magic_btn">Open /q/:id</string>
+    <string name="landing_features_heading">Built for Global B2B Revenue Teams</string>
+    <string name="landing_feat_quotes_title">Interactive Quotes</string>
+    <string name="landing_feat_quotes_desc">Dynamic line items, catalog picker, discounts, tax toggles, and PDF print.</string>
+    <string name="landing_feat_sign_title">Instant E-Signatures</string>
+    <string name="landing_feat_sign_desc">Smooth touch &amp; stylus canvas pad with timestamped acceptance certificates.</string>
+    <string name="landing_feat_currency_title">Multi-Currency</string>
+    <string name="landing_feat_currency_desc">Native Intl formatting for TZS, USD, KES, UGX, EUR, GBP, and ZAR.</string>
+    <string name="landing_feat_links_title">Magic Links</string>
+    <string name="landing_feat_links_desc">No-login /q/:id client portal branded with your logo and accent color.</string>
+    <string name="landing_lookup_title">Open Magic Link Quote</string>
+    <string name="landing_lookup_desc">Paste a Quote ID or Magic Link URL (/q/:id or proquote://q/:id) to preview and sign as a client without logging in.</string>
+    <string name="landing_lookup_label">Quote UUID or Magic Link</string>
+    <string name="landing_lookup_submit">Open Quote</string>
+
+    <!-- Auth & Onboarding -->
+    <string name="auth_signup_title">Create your Pro Quote account</string>
+    <string name="auth_login_title">Welcome back</string>
+    <string name="auth_signup_subtitle">Start sending interactive proposals &amp; e-signatures in minutes.</string>
+    <string name="auth_login_subtitle">Sign in to manage quotes, clients, and revenue.</string>
+    <string name="auth_email_label">Work Email</string>
+    <string name="auth_password_label">Password</string>
+    <string name="auth_show_password">Show password</string>
+    <string name="auth_hide_password">Hide password</string>
+    <string name="auth_creating_account">Creating account…</string>
+    <string name="auth_signing_in">Signing in…</string>
+    <string name="auth_create_account">Create Account</string>
+    <string name="auth_has_account">Already have an account?</string>
+    <string name="auth_no_account">Don\'t have an account?</string>
+    <string name="auth_back_to_landing">Back to landing</string>
+    <string name="auth_configure_supabase">Configure Supabase</string>
+
+    <string name="onboarding_title">Set up your workspace</string>
+    <string name="onboarding_subtitle">Signed in as %1$s. Configure your company branding and default quotation settings.</string>
+    <string name="onboarding_company_label">Company / Business Name</string>
+    <string name="onboarding_tax_label">Default Tax / VAT Rate (%)</string>
+    <string name="onboarding_creating">Creating Workspace…</string>
+    <string name="onboarding_launch">Launch Pro Quote Workspace</string>
+
+    <!-- Dashboard Shell & Tabs -->
+    <string name="tab_overview">Overview</string>
+    <string name="tab_quotes">Quotes</string>
+    <string name="tab_clients">Clients</string>
+    <string name="tab_items">Items</string>
+    <string name="tab_settings">Settings</string>
+    <string name="dashboard_tax_meta">%1$s · %2$s%% tax</string>
+    <string name="dashboard_new_quote">New Quote</string>
+    <string name="dashboard_account_menu">Account menu</string>
+    <string name="dashboard_signed_in_as">Signed in as</string>
+    <string name="dashboard_refresh_data">Refresh Data</string>
+    <string name="dashboard_open_magic_menu">Open Magic Link (/q/:id)</string>
+    <string name="dashboard_supabase_menu">Supabase Connection</string>
+    <string name="dashboard_lookup_title">Open Quote Magic Link</string>
+    <string name="dashboard_lookup_label">Quote UUID or /q/:id</string>
+
+    <!-- Overview & Quotes Screens -->
+    <string name="overview_title">Revenue Overview</string>
+    <string name="overview_subtitle">Real-time pipeline, conversion rate, and recent quotation activity.</string>
+    <string name="kpi_sent_title">Total Quotes Sent</string>
+    <string name="kpi_sent_sub">%1$d total created</string>
+    <string name="kpi_accepted_title">Accepted Quotes</string>
+    <string name="kpi_accepted_sub">%1$s%% conversion</string>
+    <string name="kpi_revenue_title">Accepted Revenue</string>
+    <string name="kpi_revenue_sub">Signed &amp; closed</string>
+    <string name="kpi_pipeline_title">Pending Pipeline</string>
+    <string name="kpi_pipeline_sub">Awaiting signature</string>
+    <string name="overview_recent_quotes">Recent Quotes</string>
+    <string name="overview_view_all">View All (%1$d)</string>
+    <string name="overview_empty_title">No quotes yet</string>
+    <string name="overview_empty_subtitle">Create your first branded quotation and share a magic link with your client.</string>
+    <string name="overview_empty_cta">+ New Quote</string>
+
+    <string name="quotes_title">Quotes</string>
+    <string name="quotes_search_hint">Search by quote # or client name…</string>
+    <string name="quotes_filter_all">All (%1$d)</string>
+    <string name="quotes_empty_title">Create your first quote</string>
+    <string name="quotes_empty_filtered_title">No matching quotes</string>
+    <string name="quotes_empty_subtitle">Build interactive quotes with line items, taxes, and e-signatures.</string>
+    <string name="quotes_empty_filtered_subtitle">Try clearing your search filter.</string>
+    <string name="quotes_delete_title">Delete Quote %1$s?</string>
+    <string name="quotes_delete_body">This removes the quote and all its line items permanently.</string>
+
+    <!-- Clients & Items Screens -->
+    <string name="clients_title">Clients CRM</string>
+    <string name="clients_count">%1$d contacts in workspace</string>
+    <string name="clients_add_btn">Add Client</string>
+    <string name="clients_search_hint">Search clients by name, email, or phone…</string>
+    <string name="clients_empty_title">No clients yet</string>
+    <string name="clients_empty_filtered_title">No matching clients</string>
+    <string name="clients_empty_subtitle">Add your B2B customers to reuse their billing details across quotes.</string>
+    <string name="clients_empty_cta">+ Add First Client</string>
+    <string name="clients_delete_title">Delete %1$s?</string>
+    <string name="clients_delete_body">This client will be removed from your CRM. Existing quotes remain intact.</string>
+    <string name="client_form_add_title">Add New Client</string>
+    <string name="client_form_edit_title">Edit Client</string>
+    <string name="client_form_name">Client / Company Name *</string>
+    <string name="client_form_email">Email</string>
+    <string name="client_form_phone">Phone</string>
+    <string name="client_form_address">Billing Address</string>
+    <string name="client_form_save">Save Client</string>
+    <string name="client_form_update">Update Client</string>
+
+    <string name="items_title">Item Library</string>
+    <string name="items_count">%1$d reusable products &amp; services</string>
+    <string name="items_add_btn">Add Item</string>
+    <string name="items_search_hint">Search products or services…</string>
+    <string name="items_empty_title">Your catalog is empty</string>
+    <string name="items_empty_filtered_title">No matching items</string>
+    <string name="items_empty_subtitle">Save frequently quoted services and deliverables to auto-fill quotes in seconds.</string>
+    <string name="items_empty_cta">+ Add First Item</string>
+    <string name="items_delete_title">Delete %1$s?</string>
+    <string name="items_delete_body">This removes the item from your library. Existing quotes keep their line items.</string>
+    <string name="item_form_add_title">Add Library Item</string>
+    <string name="item_form_edit_title">Edit Library Item</string>
+    <string name="item_form_name">Item / Service Name *</string>
+    <string name="item_form_desc">Description</string>
+    <string name="item_form_price">Unit Price (%1$s) *</string>
+    <string name="item_form_save">Save Item</string>
+    <string name="item_form_update">Update Item</string>
+
+    <!-- Quote Builder Screen -->
+    <string name="builder_new_title">New Quotation</string>
+    <string name="builder_edit_title">Edit %1$s</string>
+    <string name="builder_issued_date">Issued %1$s</string>
+    <string name="builder_save_draft">Save Draft</string>
+    <string name="builder_save_magic">Save &amp; Magic Link</string>
+    <string name="builder_details_title">Quote Details</string>
+    <string name="builder_quote_number">Quote #</string>
+    <string name="builder_valid_until">Valid Until</string>
+    <string name="builder_select_date_cd">Select valid until date</string>
+    <string name="builder_client_label">Client</string>
+    <string name="builder_select_client_hint">Select Client…</string>
+    <string name="builder_no_clients_dropdown">No clients yet — tap + to add</string>
+    <string name="builder_quick_add_client_cd">Quick add client</string>
+    <string name="builder_line_items_count">Line Items (%1$d)</string>
+    <string name="builder_catalog_btn">Catalog</string>
+    <string name="builder_row_btn">Row</string>
+    <string name="builder_financial_summary">Financial Summary</string>
+    <string name="builder_discount_label">Discount (%1$s)</string>
+    <string name="builder_tax_percent_label">Tax %</string>
+    <string name="builder_tax_switch_label">Tax</string>
+    <string name="builder_subtotal">Subtotal</string>
+    <string name="builder_discount">Discount</string>
+    <string name="builder_tax_with_rate">Tax (%1$s%%)</string>
+    <string name="builder_tax_exempt">Tax (Exempt)</string>
+    <string name="builder_grand_total">Grand Total</string>
+    <string name="builder_payment_terms_title">Payment &amp; Terms</string>
+    <string name="builder_payment_instructions_label">Payment Instructions (Bank, Mobile Money, Payment Link)</string>
+    <string name="builder_notes_label">Terms &amp; Conditions / Notes</string>
+    <string name="builder_pick_library_title">Pick from Item Library</string>
+    <string name="builder_pick_library_empty">Your Item Library is empty. Add items in the Items tab or type a custom line item directly.</string>
+    <string name="builder_item_index">Item #%1$d</string>
+    <string name="builder_move_up_cd">Move row up</string>
+    <string name="builder_move_down_cd">Move row down</string>
+    <string name="builder_remove_row_cd">Remove row</string>
+    <string name="builder_item_name_label">Item / Deliverable Name *</string>
+    <string name="builder_item_desc_label">Description (Optional)</string>
+    <string name="builder_qty_label">Qty</string>
+    <string name="builder_unit_price_label">Unit Price (%1$s)</string>
+    <string name="builder_line_total_label">Total</string>
+
+    <!-- Public Quote Screen & Signature Pad -->
+    <string name="public_fallback_title">Magic Link Proposal</string>
+    <string name="public_print_pdf">Print / PDF</string>
+    <string name="public_print_pdf_cd">Print or save as PDF</string>
+    <string name="public_loading">Loading proposal…</string>
+    <string name="public_error_title">Unable to load quotation</string>
+    <string name="public_doc_heading">QUOTATION</string>
+    <string name="public_prepared_for">PREPARED FOR</string>
+    <string name="public_quote_dates">QUOTE DATES</string>
+    <string name="public_issued_on">Issued: %1$s</string>
+    <string name="public_valid_until_on">Valid Until: %1$s</string>
+    <string name="public_col_item">ITEM</string>
+    <string name="public_col_qty">QTY</string>
+    <string name="public_col_total">TOTAL</string>
+    <string name="public_price_each">%1$s each</string>
+    <string name="public_total_amount">Total Amount</string>
+    <string name="public_payment_instructions">PAYMENT INSTRUCTIONS</string>
+    <string name="public_terms_conditions">TERMS &amp; CONDITIONS</string>
+    <string name="public_accepted_title">Quote Accepted &amp; Digitally Signed</string>
+    <string name="public_signed_by_on">Signed by %1$s on %2$s</string>
+    <string name="public_declined_title">Quote Declined</string>
+    <string name="public_declined_desc">This quotation was marked as declined.</string>
+    <string name="public_esign_title">Acceptance &amp; E-Signature</string>
+    <string name="public_esign_desc">By signing below, you accept the terms, pricing, and scope outlined in %1$s.</string>
+    <string name="public_signer_name_label">Full Name / Title *</string>
+    <string name="public_signer_name_hint">e.g. Jane Doe, Procurement Director</string>
+    <string name="public_decline_btn">Decline Quote</string>
+    <string name="public_accept_sign_btn">Accept &amp; Sign Quote</string>
+    <string name="public_draw_signature_prompt">Please draw your signature first.</string>
+    <string name="public_enter_signer_prompt">Please enter your Full Name / Title.</string>
+
+    <string name="sig_draw_below">Draw your signature below</string>
+    <string name="sig_clear">Clear Signature</string>
+    <string name="sig_placeholder">Sign here with finger or stylus</string>
+    <string name="sig_preview_cd">Client digital signature</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Workspace Settings</string>
+    <string name="settings_subtitle">Customize company branding, default currency, tax rate, and payment terms.</string>
+    <string name="settings_company_section">Company Profile &amp; Branding</string>
+    <string name="settings_company_name">Company Name *</string>
+    <string name="settings_logo_url">Logo URL (Optional)</string>
+    <string name="settings_financial_section">Financial Defaults</string>
+    <string name="settings_tax_rate">Tax Rate %</string>
+    <string name="settings_payment_defaults">Default Payment Instructions</string>
+    <string name="settings_payment_defaults_hint">Bank Name, Account #, Mobile Money Paybill, or Stripe link…</string>
+    <string name="settings_saving">Saving…</string>
+    <string name="settings_save_btn">Save Workspace Settings</string>
+    <string name="settings_supabase_section">Supabase Backend</string>
+    <string name="settings_not_configured">Not configured</string>
+    <string name="settings_update_supabase">Update Supabase Credentials</string>
+
+    <!-- PDF Printer Labels -->
+    <string name="pdf_col_item_desc">Item &amp; Description</string>
+    <string name="pdf_col_qty">Qty</string>
+    <string name="pdf_col_unit_price">Unit Price</string>
+    <string name="pdf_col_total">Total</string>
+    <string name="pdf_sig_badge">DIGITALLY ACCEPTED &amp; SIGNED</string>
+    <string name="pdf_signed_by_html">Signed by &lt;strong&gt;%1$s&lt;/strong&gt; on %2$s</string>
+    <string name="pdf_status_line">Status: %1$s</string>
+
+    <!-- ViewModel Messages & Toasts -->
+    <string name="msg_session_expired">Session expired. Please sign in again.</string>
+    <string name="msg_unable_verify_session">Unable to verify session</string>
+    <string name="msg_connected_supabase">Connected to Supabase</string>
+    <string name="msg_connection_failed">Connection failed</string>
+    <string name="msg_signed_in_as">Signed in as %1$s</string>
+    <string name="msg_sign_in_failed">Sign in failed</string>
+    <string name="msg_account_created">Account created!</string>
+    <string name="msg_confirm_email_sent">Confirmation email sent to %1$s. Please verify your email, then sign in.</string>
+    <string name="msg_sign_up_failed">Sign up failed</string>
+    <string name="msg_signed_out">Signed out</string>
+    <string name="msg_workspace_created">Workspace %1$s created</string>
+    <string name="msg_workspace_create_failed">Failed to create workspace</string>
+    <string name="msg_workspace_refresh_failed">Failed to refresh workspace</string>
+    <string name="msg_workspace_load_error">Error loading workspace data</string>
+    <string name="msg_client_added">Client added</string>
+    <string name="msg_client_updated">Client updated</string>
+    <string name="msg_client_save_failed">Failed to save client</string>
+    <string name="msg_client_deleted">Client deleted</string>
+    <string name="msg_client_delete_failed">Failed to delete client</string>
+    <string name="msg_item_added">Item added to library</string>
+    <string name="msg_item_updated">Item updated</string>
+    <string name="msg_item_save_failed">Failed to save item</string>
+    <string name="msg_item_deleted">Item removed from library</string>
+    <string name="msg_item_delete_failed">Failed to delete item</string>
+    <string name="msg_default_quote_notes">Valid for 14 days from issue date. Prices exclude bank transfer fees unless specified.</string>
+    <string name="msg_add_line_item_required">Add at least one line item with a name.</string>
+    <string name="msg_quote_sent_toast">Quote sent &amp; Magic Link ready</string>
+    <string name="msg_quote_draft_toast">Quote saved as Draft</string>
+    <string name="msg_quote_save_failed">Failed to save quote</string>
+    <string name="msg_quote_deleted">Quote deleted</string>
+    <string name="msg_quote_delete_failed">Failed to delete quote</string>
+    <string name="msg_public_load_failed">Could not load quotation.</string>
+    <string name="msg_quote_signed_toast">Quote accepted &amp; digitally signed!</string>
+    <string name="msg_signature_failed">Failed to record signature</string>
+    <string name="msg_quote_declined_toast">Quote marked as Declined</string>
+    <string name="msg_quote_decline_failed">Failed to decline quote</string>
+    <string name="msg_settings_saved">Workspace settings saved</string>
+    <string name="msg_settings_save_failed">Failed to update settings</string>
+    <string name="msg_missing_workspace">Please complete your workspace setup before adding clients, items, or quotes.</string>
+</resources>

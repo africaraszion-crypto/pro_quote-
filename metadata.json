@@ -1,0 +1,6 @@
+{
+  "name": "Pro Quote",
+  "description": "Interactive B2B digital quotation, CRM, and e-signature platform powered by Supabase",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

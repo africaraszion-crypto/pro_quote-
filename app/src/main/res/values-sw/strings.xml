@@ -1,0 +1,331 @@
+<resources>
+    <string name="app_name">Pro Quote</string>
+
+    <!-- Language Names -->
+    <string name="language_section_title">Lugha ya Programu</string>
+    <string name="language_section_subtitle">Chagua lugha unayopendelea kutumia. Kiingereza ndiyo lugha chaguomsingi.</string>
+    <string name="language_english_label">English (Chaguomsingi)</string>
+    <string name="language_swahili_label">Kiswahili</string>
+    <string name="language_menu_item">Lugha: %1$s</string>
+    <string name="language_changed_toast">Lugha imebadilishwa kuwa %1$s</string>
+
+    <!-- Common Actions & Labels -->
+    <string name="action_cancel">Ghairi</string>
+    <string name="action_delete">Futa</string>
+    <string name="action_save">Hifadhi</string>
+    <string name="action_done">Imekamilika</string>
+    <string name="action_close">Funga</string>
+    <string name="action_ok">Sawa</string>
+    <string name="action_retry">Jaribu Tena</string>
+    <string name="action_edit">Hariri</string>
+    <string name="action_view">Tazama</string>
+    <string name="action_back">Rudi</string>
+    <string name="action_sign_in">Ingia</string>
+    <string name="action_sign_out">Toka</string>
+    <string name="label_currency">Sarafu</string>
+    <string name="label_primary_brand_color">Rangi Kuu ya Chapa</string>
+    <string name="label_brand_hex_code">Msimbo wa Rangi (Hex)</string>
+    <string name="label_selected_color">Rangi iliyochaguliwa %1$s</string>
+    <string name="label_unassigned_client">Mteja Hajapangiwa</string>
+    <string name="label_client_fallback">Mteja</string>
+    <string name="label_magic_link">Kiungo Maalum</string>
+    <string name="label_open">Fungua</string>
+
+    <!-- Quote Statuses -->
+    <string name="status_draft">Rasimu</string>
+    <string name="status_sent">Imetumwa</string>
+    <string name="status_accepted">Imekubaliwa</string>
+    <string name="status_declined">Imekataliwa</string>
+
+    <!-- Connect Supabase Dialog -->
+    <string name="supabase_connect_title">Unganisha Supabase</string>
+    <string name="supabase_connect_desc">Weka Anwani ya Mradi (URL) na Ufunguo wa Umma (Anon Key) wa Supabase ili kuhifadhi ankara, wateja, bidhaa, na saini za kidijitali.</string>
+    <string name="supabase_url_label">Anwani ya Mradi (URL)</string>
+    <string name="supabase_key_label">Ufunguo wa Umma / Anon Key</string>
+    <string name="supabase_connecting">Inaunganisha…</string>
+    <string name="supabase_connect_save">Unganisha na Hifadhi</string>
+
+    <!-- Magic Link Share Dialog -->
+    <string name="magic_link_ready_title">Kiungo Maalum Kiko Tayari</string>
+    <string name="magic_link_ready_desc">Ankara %1$s imewekwa kama Imetumwa. Shiriki kiungo hiki na mteja wako ili aitazame, aichapishe PDF, na kutia saini mtandaoni.</string>
+    <string name="magic_link_route_label">Njia: %1$s</string>
+    <string name="magic_link_copy">Nakili Kiungo</string>
+    <string name="magic_link_copied">Imenakiliwa</string>
+    <string name="magic_link_share">Shiriki</string>
+    <string name="magic_link_share_subject">Ankara %1$s</string>
+    <string name="magic_link_share_body">Tafadhali kagua na utie saini Ankara %1$s: %2$s</string>
+    <string name="magic_link_share_chooser">Shiriki Kiungo Maalum</string>
+    <string name="magic_link_open_viewer">Fungua Mtazamo</string>
+    <string name="magic_link_copied_toast">Kiungo maalum kimenakiliwa kwa %1$s</string>
+
+    <!-- Landing Screen -->
+    <string name="landing_supabase_live">Supabase Iko Hewani</string>
+    <string name="landing_connect_db">Unganisha DB</string>
+    <string name="landing_hero_cd">Mfumo wa Pro Quote wa ankara na saini ya kidijitali</string>
+    <string name="landing_badge">MFUMO WA ANKARA ZA B2B NA SAINI YA KIDIJITALI</string>
+    <string name="landing_headline">Kamilisha mikataba haraka kwa ankara shirikishi mtandaoni.</string>
+    <string name="landing_subheadline">Unda mapendekezo ya bei yenye chapa yako na sarafu nyingi, shiriki viungo kwa kubofya mara moja, kusanya saini za kidijitali, na toa PDF bora.</string>
+    <string name="landing_get_started">Anza Bure</string>
+    <string name="landing_open_magic_btn">Fungua /q/:id</string>
+    <string name="landing_features_heading">Imeundwa kwa Timu za Mauzo za B2B</string>
+    <string name="landing_feat_quotes_title">Ankara Shirikishi</string>
+    <string name="landing_feat_quotes_desc">Vipengele vinavyobadilika, orodha ya bidhaa, punguzo, kodi, na uchapishaji wa PDF.</string>
+    <string name="landing_feat_sign_title">Saini za Haraka</string>
+    <string name="landing_feat_sign_desc">Ubao laini wa kusaini kwa kidole au kalamu wenye cheti chenye muda halisi.</string>
+    <string name="landing_feat_currency_title">Sarafu Nyingi</string>
+    <string name="landing_feat_currency_desc">Muundo sahihi wa fedha kwa TZS, USD, KES, UGX, EUR, GBP, na ZAR.</string>
+    <string name="landing_feat_links_title">Viungo Maalum</string>
+    <string name="landing_feat_links_desc">Ukurasa wa mteja /q/:id bila kuingia wenye nembo na rangi ya kampuni yako.</string>
+    <string name="landing_lookup_title">Fungua Ankara kwa Kiungo Maalum</string>
+    <string name="landing_lookup_desc">Bandika Kitambulisho cha Ankara au Kiungo Maalum (/q/:id au proquote://q/:id) ili kutazama na kutia saini kama mteja bila kuingia.</string>
+    <string name="landing_lookup_label">UUID ya Ankara au Kiungo Maalum</string>
+    <string name="landing_lookup_submit">Fungua Ankara</string>
+
+    <!-- Auth & Onboarding -->
+    <string name="auth_signup_title">Fungua akaunti yako ya Pro Quote</string>
+    <string name="auth_login_title">Karibu tena</string>
+    <string name="auth_signup_subtitle">Anza kutuma mapendekezo ya bei na saini za kidijitali kwa dakika chache.</string>
+    <string name="auth_login_subtitle">Ingia ili kusimamia ankara, wateja, na mapato.</string>
+    <string name="auth_email_label">Barua Pepe ya Kazi</string>
+    <string name="auth_password_label">Nenosiri</string>
+    <string name="auth_show_password">Onyesha nenosiri</string>
+    <string name="auth_hide_password">Ficha nenosiri</string>
+    <string name="auth_creating_account">Inafungua akaunti…</string>
+    <string name="auth_signing_in">Inaingia…</string>
+    <string name="auth_create_account">Fungua Akaunti</string>
+    <string name="auth_has_account">Tayari una akaunti?</string>
+    <string name="auth_no_account">Huna akaunti bado?</string>
+    <string name="auth_back_to_landing">Rudi mwanzo</string>
+    <string name="auth_configure_supabase">Sanidi Supabase</string>
+
+    <string name="onboarding_title">Sanidi eneo lako la kazi</string>
+    <string name="onboarding_subtitle">Umeingia kama %1$s. Weka chapa ya kampuni yako na mipangilio chaguomsingi ya ankara.</string>
+    <string name="onboarding_company_label">Jina la Kampuni / Biashara</string>
+    <string name="onboarding_tax_label">Kiwango Chaguomsingi cha Kodi / VAT (%)</string>
+    <string name="onboarding_creating">Inaunda Eneo la Kazi…</string>
+    <string name="onboarding_launch">Anzisha Eneo la Kazi la Pro Quote</string>
+
+    <!-- Dashboard Shell & Tabs -->
+    <string name="tab_overview">Muhtasari</string>
+    <string name="tab_quotes">Ankara</string>
+    <string name="tab_clients">Wateja</string>
+    <string name="tab_items">Bidhaa</string>
+    <string name="tab_settings">Mipangilio</string>
+    <string name="dashboard_tax_meta">%1$s · kodi %2$s%%</string>
+    <string name="dashboard_new_quote">Ankara Mpya</string>
+    <string name="dashboard_account_menu">Menyu ya akaunti</string>
+    <string name="dashboard_signed_in_as">Umeingia kama</string>
+    <string name="dashboard_refresh_data">Onyesha Upya Data</string>
+    <string name="dashboard_open_magic_menu">Fungua Kiungo Maalum (/q/:id)</string>
+    <string name="dashboard_supabase_menu">Muunganisho wa Supabase</string>
+    <string name="dashboard_lookup_title">Fungua Kiungo Maalum cha Ankara</string>
+    <string name="dashboard_lookup_label">UUID ya Ankara au /q/:id</string>
+
+    <!-- Overview & Quotes Screens -->
+    <string name="overview_title">Muhtasari wa Mapato</string>
+    <string name="overview_subtitle">Mwenendo wa mauzo, kiwango cha ukubalifu, na shughuli za hivi karibuni za ankara.</string>
+    <string name="kpi_sent_title">Ankara Zilizotumwa</string>
+    <string name="kpi_sent_sub">jumla %1$d zimeundwa</string>
+    <string name="kpi_accepted_title">Zilizokubaliwa</string>
+    <string name="kpi_accepted_sub">ukubalifu %1$s%%</string>
+    <string name="kpi_revenue_title">Mapato Halisi</string>
+    <string name="kpi_revenue_sub">Zimesainiwa</string>
+    <string name="kpi_pipeline_title">Zinazosubiri</string>
+    <string name="kpi_pipeline_sub">Zinasubiri saini</string>
+    <string name="overview_recent_quotes">Ankara za Hivi Karibuni</string>
+    <string name="overview_view_all">Zote (%1$d)</string>
+    <string name="overview_empty_title">Bado hakuna ankara</string>
+    <string name="overview_empty_subtitle">Unda ankara yako ya kwanza yenye chapa na ushiriki kiungo maalum na mteja wako.</string>
+    <string name="overview_empty_cta">+ Ankara Mpya</string>
+
+    <string name="quotes_title">Ankara</string>
+    <string name="quotes_search_hint">Tafuta kwa namba ya ankara au jina la mteja…</string>
+    <string name="quotes_filter_all">Zote (%1$d)</string>
+    <string name="quotes_empty_title">Unda ankara yako ya kwanza</string>
+    <string name="quotes_empty_filtered_title">Hakuna ankara zinazolingana</string>
+    <string name="quotes_empty_subtitle">Tengeneza ankara shirikishi zenye vipengele, kodi, na saini za kidijitali.</string>
+    <string name="quotes_empty_filtered_subtitle">Jaribu kufuta kichujio chako cha utafutaji.</string>
+    <string name="quotes_delete_title">Futa Ankara %1$s?</string>
+    <string name="quotes_delete_body">Hatua hii itaondoa ankara na vipengele vyake vyote kabisa.</string>
+
+    <!-- Clients & Items Screens -->
+    <string name="clients_title">Orodha ya Wateja</string>
+    <string name="clients_count">wateja %1$d katika eneo la kazi</string>
+    <string name="clients_add_btn">Ongeza Mteja</string>
+    <string name="clients_search_hint">Tafuta wateja kwa jina, barua pepe, au simu…</string>
+    <string name="clients_empty_title">Bado hakuna wateja</string>
+    <string name="clients_empty_filtered_title">Hakuna wateja wanaolingana</string>
+    <string name="clients_empty_subtitle">Ongeza wateja wako wa biashara ili kutumia taarifa zao za malipo kwenye ankara.</string>
+    <string name="clients_empty_cta">+ Ongeza Mteja wa Kwanza</string>
+    <string name="clients_delete_title">Futa %1$s?</string>
+    <string name="clients_delete_body">Mteja huyu ataondolewa kwenye orodha yako. Ankara zilizopo hazitaathirika.</string>
+    <string name="client_form_add_title">Ongeza Mteja Mpya</string>
+    <string name="client_form_edit_title">Hariri Mteja</string>
+    <string name="client_form_name">Jina la Mteja / Kampuni *</string>
+    <string name="client_form_email">Barua Pepe</string>
+    <string name="client_form_phone">Simu</string>
+    <string name="client_form_address">Anwani ya Malipo</string>
+    <string name="client_form_save">Hifadhi Mteja</string>
+    <string name="client_form_update">Sasisha Mteja</string>
+
+    <string name="items_title">Orodha ya Bidhaa</string>
+    <string name="items_count">bidhaa na huduma %1$d zinazotumika tena</string>
+    <string name="items_add_btn">Ongeza Bidhaa</string>
+    <string name="items_search_hint">Tafuta bidhaa au huduma…</string>
+    <string name="items_empty_title">Orodha yako ya bidhaa iko tupu</string>
+    <string name="items_empty_filtered_title">Hakuna bidhaa zinazolingana</string>
+    <string name="items_empty_subtitle">Hifadhi huduma na bidhaa unazotoa mara kwa mara ili kujaza ankara kwa sekunde.</string>
+    <string name="items_empty_cta">+ Ongeza Bidhaa ya Kwanza</string>
+    <string name="items_delete_title">Futa %1$s?</string>
+    <string name="items_delete_body">Hatua hii itaondoa bidhaa kwenye orodha yako. Ankara zilizopo zitabaki na vipengele vyake.</string>
+    <string name="item_form_add_title">Ongeza Bidhaa Kwenye Orodha</string>
+    <string name="item_form_edit_title">Hariri Bidhaa</string>
+    <string name="item_form_name">Jina la Bidhaa / Huduma *</string>
+    <string name="item_form_desc">Maelezo</string>
+    <string name="item_form_price">Bei ya Kimoja (%1$s) *</string>
+    <string name="item_form_save">Hifadhi Bidhaa</string>
+    <string name="item_form_update">Sasisha Bidhaa</string>
+
+    <!-- Quote Builder Screen -->
+    <string name="builder_new_title">Ankara Mpya</string>
+    <string name="builder_edit_title">Hariri %1$s</string>
+    <string name="builder_issued_date">Imetolewa %1$s</string>
+    <string name="builder_save_draft">Hifadhi Rasimu</string>
+    <string name="builder_save_magic">Hifadhi na Kiungo</string>
+    <string name="builder_details_title">Maelezo ya Ankara</string>
+    <string name="builder_quote_number">Namba #</string>
+    <string name="builder_valid_until">Halali Hadi</string>
+    <string name="builder_select_date_cd">Chagua tarehe ya mwisho</string>
+    <string name="builder_client_label">Mteja</string>
+    <string name="builder_select_client_hint">Chagua Mteja…</string>
+    <string name="builder_no_clients_dropdown">Hakuna wateja bado — bofya + kuongeza</string>
+    <string name="builder_quick_add_client_cd">Ongeza mteja haraka</string>
+    <string name="builder_line_items_count">Vipengele (%1$d)</string>
+    <string name="builder_catalog_btn">Orodha</string>
+    <string name="builder_row_btn">Mstari</string>
+    <string name="builder_financial_summary">Muhtasari wa Fedha</string>
+    <string name="builder_discount_label">Punguzo (%1$s)</string>
+    <string name="builder_tax_percent_label">Kodi %</string>
+    <string name="builder_tax_switch_label">Kodi</string>
+    <string name="builder_subtotal">Jumla Ndogo</string>
+    <string name="builder_discount">Punguzo</string>
+    <string name="builder_tax_with_rate">Kodi (%1$s%%)</string>
+    <string name="builder_tax_exempt">Kodi (Msamaha)</string>
+    <string name="builder_grand_total">Jumla Kuu</string>
+    <string name="builder_payment_terms_title">Malipo na Masharti</string>
+    <string name="builder_payment_instructions_label">Maelekezo ya Malipo (Benki, Simu, Kiungo cha Malipo)</string>
+    <string name="builder_notes_label">Vigezo, Masharti na Maelezo</string>
+    <string name="builder_pick_library_title">Chagua Kutoka Orodha ya Bidhaa</string>
+    <string name="builder_pick_library_empty">Orodha yako ya bidhaa iko tupu. Ongeza bidhaa kwenye kichupo cha Bidhaa au andika kipengele moja kwa moja.</string>
+    <string name="builder_item_index">Kipengele #%1$d</string>
+    <string name="builder_move_up_cd">Peleka juu</string>
+    <string name="builder_move_down_cd">Peleka chini</string>
+    <string name="builder_remove_row_cd">Ondoa mstari</string>
+    <string name="builder_item_name_label">Jina la Bidhaa / Huduma *</string>
+    <string name="builder_item_desc_label">Maelezo (Si lazima)</string>
+    <string name="builder_qty_label">Idadi</string>
+    <string name="builder_unit_price_label">Bei (%1$s)</string>
+    <string name="builder_line_total_label">Jumla</string>
+
+    <!-- Public Quote Screen & Signature Pad -->
+    <string name="public_fallback_title">Pendekezo la Ankara</string>
+    <string name="public_print_pdf">Chapisha / PDF</string>
+    <string name="public_print_pdf_cd">Chapisha au hifadhi kama PDF</string>
+    <string name="public_loading">Inapakia ankara…</string>
+    <string name="public_error_title">Imeshindwa kupakia ankara</string>
+    <string name="public_doc_heading">ANKARA YA BEI</string>
+    <string name="public_prepared_for">IMEANDALIWA KWA</string>
+    <string name="public_quote_dates">TAREHE ZA ANKARA</string>
+    <string name="public_issued_on">Imetolewa: %1$s</string>
+    <string name="public_valid_until_on">Halali Hadi: %1$s</string>
+    <string name="public_col_item">KIPENGELE</string>
+    <string name="public_col_qty">IDADI</string>
+    <string name="public_col_total">JUMLA</string>
+    <string name="public_price_each">%1$s kila kimoja</string>
+    <string name="public_total_amount">Jumla ya Malipo</string>
+    <string name="public_payment_instructions">MAELEKEZO YA MALIPO</string>
+    <string name="public_terms_conditions">VIGEZO NA MASHARTI</string>
+    <string name="public_accepted_title">Ankara Imekubaliwa na Kusainiwa Kidijitali</string>
+    <string name="public_signed_by_on">Imesainiwa na %1$s mnamo %2$s</string>
+    <string name="public_declined_title">Ankara Imekataliwa</string>
+    <string name="public_declined_desc">Ankara hii imewekwa kuwa imekataliwa.</string>
+    <string name="public_esign_title">Ukubalifu na Saini ya Kidijitali</string>
+    <string name="public_esign_desc">Kwa kutia saini hapa chini, unakubali masharti, bei, na wigo uliowekwa katika %1$s.</string>
+    <string name="public_signer_name_label">Jina Kamili / Cheo *</string>
+    <string name="public_signer_name_hint">mfano: Asha Juma, Mkurugenzi wa Ununuzi</string>
+    <string name="public_decline_btn">Kataa Ankara</string>
+    <string name="public_accept_sign_btn">Kubali na Saini</string>
+    <string name="public_draw_signature_prompt">Tafadhali chora saini yako kwanza.</string>
+    <string name="public_enter_signer_prompt">Tafadhali weka Jina Kamili / Cheo chako.</string>
+
+    <string name="sig_draw_below">Chora saini yako hapa chini</string>
+    <string name="sig_clear">Futa Saini</string>
+    <string name="sig_placeholder">Saini hapa kwa kidole au kalamu</string>
+    <string name="sig_preview_cd">Saini ya kidijitali ya mteja</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Mipangilio ya Eneo la Kazi</string>
+    <string name="settings_subtitle">Rekebisha chapa ya kampuni, sarafu chaguomsingi, kiwango cha kodi, na masharti ya malipo.</string>
+    <string name="settings_company_section">Wasifu wa Kampuni na Chapa</string>
+    <string name="settings_company_name">Jina la Kampuni *</string>
+    <string name="settings_logo_url">Kiungo cha Nembo (Si lazima)</string>
+    <string name="settings_financial_section">Mipangilio ya Fedha</string>
+    <string name="settings_tax_rate">Kiwango cha Kodi %</string>
+    <string name="settings_payment_defaults">Maelekezo Chaguomsingi ya Malipo</string>
+    <string name="settings_payment_defaults_hint">Jina la Benki, Namba ya Akaunti, Lipa Namba ya Simu, au kiungo cha malipo…</string>
+    <string name="settings_saving">Inahifadhi…</string>
+    <string name="settings_save_btn">Hifadhi Mipangilio</string>
+    <string name="settings_supabase_section">Seva ya Supabase</string>
+    <string name="settings_not_configured">Haijasanidiwa</string>
+    <string name="settings_update_supabase">Sasisha Taarifa za Supabase</string>
+
+    <!-- PDF Printer Labels -->
+    <string name="pdf_col_item_desc">Kipengele na Maelezo</string>
+    <string name="pdf_col_qty">Idadi</string>
+    <string name="pdf_col_unit_price">Bei ya Kimoja</string>
+    <string name="pdf_col_total">Jumla</string>
+    <string name="pdf_sig_badge">IMEKUBALIWA NA KUSAINIWA KIDIJITALI</string>
+    <string name="pdf_signed_by_html">Imesainiwa na &lt;strong&gt;%1$s&lt;/strong&gt; mnamo %2$s</string>
+    <string name="pdf_status_line">Hali: %1$s</string>
+
+    <!-- ViewModel Messages & Toasts -->
+    <string name="msg_session_expired">Muda wa kikao umeisha. Tafadhali ingia tena.</string>
+    <string name="msg_unable_verify_session">Imeshindwa kuthibitisha kikao</string>
+    <string name="msg_connected_supabase">Imeunganishwa na Supabase</string>
+    <string name="msg_connection_failed">Muunganisho umeshindikana</string>
+    <string name="msg_signed_in_as">Umeingia kama %1$s</string>
+    <string name="msg_sign_in_failed">Kuingia kumeshindikana</string>
+    <string name="msg_account_created">Akaunti imeundwa!</string>
+    <string name="msg_confirm_email_sent">Barua pepe ya uthibitisho imetumwa kwa %1$s. Tafadhali thibitisha barua pepe yako, kisha uingie.</string>
+    <string name="msg_sign_up_failed">Kufungua akaunti kumeshindikana</string>
+    <string name="msg_signed_out">Umetoka kwenye akaunti</string>
+    <string name="msg_workspace_created">Eneo la kazi la %1$s limeundwa</string>
+    <string name="msg_workspace_create_failed">Imeshindwa kuunda eneo la kazi</string>
+    <string name="msg_workspace_refresh_failed">Imeshindwa kusasisha eneo la kazi</string>
+    <string name="msg_workspace_load_error">Hitilafu wakati wa kupakia data ya eneo la kazi</string>
+    <string name="msg_client_added">Mteja ameongezwa</string>
+    <string name="msg_client_updated">Taarifa za mteja zimesasishwa</string>
+    <string name="msg_client_save_failed">Imeshindwa kuhifadhi mteja</string>
+    <string name="msg_client_deleted">Mteja amefutwa</string>
+    <string name="msg_client_delete_failed">Imeshindwa kufuta mteja</string>
+    <string name="msg_item_added">Bidhaa imeongezwa kwenye orodha</string>
+    <string name="msg_item_updated">Bidhaa imesasishwa</string>
+    <string name="msg_item_save_failed">Imeshindwa kuhifadhi bidhaa</string>
+    <string name="msg_item_deleted">Bidhaa imeondolewa kwenye orodha</string>
+    <string name="msg_item_delete_failed">Imeshindwa kufuta bidhaa</string>
+    <string name="msg_default_quote_notes">Halali kwa siku 14 tangu tarehe ya kutolewa. Bei hazijumuishi ada za uhamisho wa benki isipokuwa imeelezwa.</string>
+    <string name="msg_add_line_item_required">Ongeza angalau kipengele kimoja chenye jina.</string>
+    <string name="msg_quote_sent_toast">Ankara imetumwa na Kiungo Maalum kiko tayari</string>
+    <string name="msg_quote_draft_toast">Ankara imehifadhiwa kama Rasimu</string>
+    <string name="msg_quote_save_failed">Imeshindwa kuhifadhi ankara</string>
+    <string name="msg_quote_deleted">Ankara imefutwa</string>
+    <string name="msg_quote_delete_failed">Imeshindwa kufuta ankara</string>
+    <string name="msg_public_load_failed">Imeshindwa kupakia ankara.</string>
+    <string name="msg_quote_signed_toast">Ankara imekubaliwa na kusainiwa kidijitali!</string>
+    <string name="msg_signature_failed">Imeshindwa kuhifadhi saini</string>
+    <string name="msg_quote_declined_toast">Ankara imewekwa kuwa Imekataliwa</string>
+    <string name="msg_quote_decline_failed">Imeshindwa kukataa ankara</string>
+    <string name="msg_settings_saved">Mipangilio ya eneo la kazi imehifadhiwa</string>
+    <string name="msg_settings_save_failed">Imeshindwa kusasisha mipangilio</string>
+    <string name="msg_missing_workspace">Tafadhali kamilisha usanidi wa eneo lako la kazi kabla ya kuongeza wateja, bidhaa, au ankara.</string>
+</resources>
